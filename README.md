@@ -1,7 +1,7 @@
-# Text-Classification
-building and training a MLP/ sepCNN model for text classification
+# Text Classification
+building and training a Multi-Layer Perceptron (MLP) / sepCNN model for text classification
 
-## Algorithm for Data Preparation and Model Building
+## Steps for Data Preparation and Model Building
 ### 1. Calculate the number of samples/number of words per sample ratio.
 ### 2. If this ratio is less than 1500, tokenize the text as n-grams and use a simple multi-layer perceptron (MLP) model to classify them:
   - Split the samples into word n-grams; convert the n-grams into vectors.
